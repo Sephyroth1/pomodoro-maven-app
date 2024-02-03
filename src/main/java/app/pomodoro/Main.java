@@ -46,7 +46,11 @@ public class Main extends Application {
         try{
             int num1 = Integer.parseInt(s);
             input1.setText("");
-            
+            String s1 = input1.getText();
+            int num2 = Integer.parseInt(s);
+            int sum = num1 + num2;
+            System.out.println(sum);
+            System.out.println(num1 + " " + num2);
         }
         catch(NumberFormatException f){
             System.out.println("Enter a number please ");
